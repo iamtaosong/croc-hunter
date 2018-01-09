@@ -21,6 +21,7 @@ volumes:[
   node ('jenkins-pipeline') {
 
     def pwd = pwd()
+       println "pwd " + pwd
     def chart_dir = "${pwd}/charts/croc-hunter"
 
     checkout scm
