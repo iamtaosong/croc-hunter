@@ -7,7 +7,7 @@ ARG BUILD_DATE
 
 # Metadata
 LABEL org.label-schema.vcs-ref=$VCS_REF \
-      org.label-schema.vcs-url="https://github.com/lachie83/croc-hunter" \
+      org.label-schema.vcs-url="https://github.com/iamtaosong/croc-hunter" \
       org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.docker.dockerfile="/Dockerfile"
 
